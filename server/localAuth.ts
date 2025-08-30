@@ -1,5 +1,5 @@
 import * as express from 'express';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import * as session from 'express-session';
 import { v4 as uuidv4 } from 'uuid';
 import { storage } from './localStorage';
